@@ -6,7 +6,7 @@ let input = "in_progress"
 
 let lower="abcdefghijklmnopqrstuvwxyz";
 let upper= "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-let arr=s.split("_")
+let arr=input.split("_")
 let new_arr=[]
 for(let i=0;i<arr.length;i++){
 let bag="";
